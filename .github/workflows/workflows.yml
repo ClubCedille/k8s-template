@@ -8,14 +8,6 @@ on:
       - synchronize
 
 jobs:
-  kubescore-check:
+  kkubernetes-repo-standards:
     uses:
-      clubcedille/cedille-workflows/.github/workflows/kube-score.yml@master
-
-  yaml-check:
-    uses:
-      clubcedille/cedille-workflows/.github/workflows/yaml-lint.yml@master
-
-  terraform-check:
-    uses:
-      clubcedille/cedille-workflows/.github/workflows/terraform-lint.yml@master
+      clubcedille/cedille-workflows/.github/workflows/kubernetes-repo-standards.yml@master
