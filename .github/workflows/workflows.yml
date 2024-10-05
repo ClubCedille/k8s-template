@@ -1,0 +1,22 @@
+---
+    name: k8s-template integration workflow
+    
+    on:
+      pull_request:
+        types:
+          - opened
+          - closed
+          - synchronize
+
+    jobs:
+      kubescore-check:
+        uses:
+          clubcedille/cedille-workflows/.github/workflows/kube-score.yml@master
+    
+      yaml-check:
+        uses:
+          clubcedille/cedille-workflows/.github/workflows/yaml-lint.yml@master
+    
+      terraform-check:
+        uses:
+          clubcedille/cedille-workflows/.github/workflows/terraform-lint.yml@master
