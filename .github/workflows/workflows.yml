@@ -8,6 +8,6 @@ on:
       - synchronize
 
 jobs:
-  kkubernetes-repo-standards:
+  kubernetes-repo-standards:
     uses:
       clubcedille/cedille-workflows/.github/workflows/kubernetes-repo-standards.yml@master
