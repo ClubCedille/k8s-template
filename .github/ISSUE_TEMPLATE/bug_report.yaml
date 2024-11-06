@@ -1,5 +1,5 @@
 name: Bug
-description: Utilisez ce modèle pour signaler un bug qui nécessite une correction. 
+description: Utilisez ce modèle pour signaler un bug qui nécessite une correction.
 labels: ["bug"]
 projects: ["ClubCedille/16"]
 body:
