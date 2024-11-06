@@ -1,6 +1,6 @@
 name: Feature
 description: Ajouter une nouvelle fonctionnalité ou amélioration dans le projet
-labels: ["feature"]
+labels: ["enhancement"]
 projects: ["ClubCedille/14"]
 body:
 
